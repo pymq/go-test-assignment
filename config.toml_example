@@ -1,0 +1,6 @@
+port = ":4000"
+db = "postgres://postgres:mysecretpassword@localhost:32768/dbname?sslmode=disable"
+hosts = [ "example.com" ]
+production = false
+verbose = true
+returned_tvs_filename = "returned_tvs.xml"
